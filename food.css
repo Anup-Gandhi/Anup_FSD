@@ -4,9 +4,13 @@ body {
     padding: 0;
     background-color: #fafafa;
     color: #333;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-image: url("https://st3.depositphotos.com/1194063/15070/i/450/depositphotos_150709644-stock-photo-various-herbs-and-spices.jpg");
 }
 .topnav {
-    background-color: #d9534f; /* Food-themed color */
+    background-color: #0d6efd; /* Food-themed color */
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -29,13 +33,13 @@ body {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(200, 200, 200, 0.7);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 .container h1 {
     text-align: center;
-    color: #d9534f;
+    color: #0d6efd;
     font-family: 'Georgia', serif;
 }
 .restaurant {
@@ -63,14 +67,14 @@ body {
 }
 .restaurant h2 {
     margin-top: 0;
-    color: #d9534f;
+    color:  #0d6efd;
 }
 .restaurant p {
     color: #555;
 }
 .speciality {
     font-weight: bold;
-    color: #d9534f;
+    color: #0d6efd;
 }
 @media screen and (max-width: 768px) {
     .restaurant {
