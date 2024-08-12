@@ -1,5 +1,23 @@
 body{
     padding: 0;
     border: 0;
-    background-image: url('https://mittalbuilders.com/wp-content/uploads/2020/12/Reasons-to-settle-down-in-Pune-1400x700.png');
+    background-image: url("pune.png");
+}
+.about
+{
+    background-color: rgba(200, 200, 200, 0.8);
+    height: auto;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-top: 15vh;
+    color: black;
+    padding: 1.5%;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+}
+.description{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 1.2vw;
 }
