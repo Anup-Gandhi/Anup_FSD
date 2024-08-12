@@ -2,8 +2,8 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-image: url(shi.jpg);
-    background-size: contain;
+    background-image: url("https://rukminim1.flixcart.com/image/1664/1664/kp5sya80/poster/z/d/y/medium-chhatrapati-shivaji-maharaj-poster-pos-3-original-imag3gj24ezbjwgg.jpeg?q=90&crop=false");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
