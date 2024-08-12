@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+.topnav {
+    background-color: #d9534f; /* Food-themed color */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #c9302c;
+}
+.topnav a.active {
+    background-color: #c9302c;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.container h1 {
+    text-align: center;
+    color: #d9534f;
+    font-family: 'Georgia', serif;
+}
+.restaurant {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.restaurant:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.restaurant img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+}
+.restaurant div {
+    flex: 1;
+}
+.restaurant h2 {
+    margin-top: 0;
+    color: #d9534f;
+}
+.restaurant p {
+    color: #555;
+}
+.speciality {
+    font-weight: bold;
+    color: #d9534f;
+}
+@media screen and (max-width: 768px) {
+    .restaurant {
+        flex-direction: column;
+        text-align: center;
+    }
+    .restaurant:nth-child(even) {
+        flex-direction: column;
+    }
+    .restaurant img {
+        margin: 0 0 20px 0;
+        width: 100%;
+        height: auto;
+    }
+}
